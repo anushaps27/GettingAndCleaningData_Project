@@ -1,6 +1,6 @@
 # Codebook for the created tidy data set of Human Activity Recognition Using Smartphones Dataset Version 1.0
 
-## Auctor - Anusha P S
+## Author - Anusha P S
 
 ## 1. RT or Record type
 Each record or row is the average measurements for each variable/feature for a particular subject doing a particular activity.
