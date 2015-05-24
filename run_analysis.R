@@ -31,4 +31,6 @@ req_dataset <- dataset[, c(req_cols, "subject", "activity")]
 
 # creating a tidy dataset with the average of each variable for each activity and each subject
 tidy_dataset <- group_by(req_dataset, subject, activity) %>% summarise_each(funs(mean))
+
+# writing the tidy dataset to a file
 write.table(tidy_dataset, file="tidyDataset.txt", row.names=FALSE)
